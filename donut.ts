@@ -50,7 +50,7 @@ class AsciiDonut{
                     //context.fillStyle = 'rgba(23,218,1,'+L+')';
                     //context.fillRect(xp, yp, 1.5, 1.5);
                     context.font = "15px Gerogia";
-                    context.strokeStyle = "#5EA832";
+                    context.strokeStyle = "#e89f00";
                     context.strokeText(this.shades[Math.floor(lum_index)], xp, yp);
                 }
             }
